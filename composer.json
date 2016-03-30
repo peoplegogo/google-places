@@ -3,20 +3,10 @@
     "description": "A PHP wrapper for the Google Places API.",
     "license": "MIT",
     "keywords": ["google places"],
-    "version": "1.0",
     "authors": [
         {
             "name": "Pavel Tashev",
             "email": "p.d.tashev@gmail.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "peoplegogo/google-places",
-                "version": "1.0"
-            }
         }
     ],
     "require": {},
