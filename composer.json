@@ -1,5 +1,5 @@
 {
-    "name": "peoplegogo/GooglePlaces",
+    "name": "peoplegogo/google-places",
     "description": "A PHP wrapper for the Google Places API.",
     "license": "MIT",
     "keywords": ["google places"],
