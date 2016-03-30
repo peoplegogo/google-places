@@ -7,7 +7,7 @@ namespace Peoplegogo\GooglePlaces;
  *
  * @author    Pavel Tashev
  * @copyright Copyright 2016 by Pavel Tashev
- * @license   TO DO https://github.com/jstayton/Miner/blob/master/LICENSE-MIT MIT
+ * @license   https://github.com/peoplegogo/google-places/blob/master/LICENSE MIT
  * @link      https://developers.google.com/places/web-service/intro#Introduction
  * @package   Google Places API Web Service
  * @version   1.0.0
