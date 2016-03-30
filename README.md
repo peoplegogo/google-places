@@ -1,12 +1,26 @@
 # Google Places API - A PHP wrapper
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/peoplegogo/google-places/blob/master/LICENSE)
+
+![Logo of Google Places API Web Service](https://raw.githubusercontent.com/peoplegogo/google-places/master/google-places.png)
 
 This is a PHP wrapper for Google Places API Web Service.
 
 ## Installation
 ### Composer
-The recommended installation method is through <a href="https://getcomposer.org/">Composer</a>.
+The recommended installation method is through [Composer](https://getcomposer.org/). Add to your composer.json file:
+``` json
+{
+    "require": {
+        "peoplegogo/google-places": "*"
+    }
+}
+```
+or with the following command from your browser:
+```
+composer require peoplegogo/google-places
+```
 
-...
+Check [in Packagist](https://packagist.org/packages/peoplegogo/google-places).
 
 ### Manually
 Steps:
@@ -15,37 +29,37 @@ Steps:
 
 ## Getting Started
 First you have to create an instance of GooglePlaces:
-```
+``` php
 $google_places = new GooglePlaces();
 ```
 
 You can pass the API key _(used to authenticate in front of Google service)_ during the creation of the instance or you can set it up later.
-```
+``` php
 $google_places = new GooglePlaces($apiKey);
 ```
 or
-```
+``` php
 $google_places = new GooglePlaces();
 $google_places->setApiKey($apiKey);
 ```
 
 By default, the format is set to json but you can change it that way:
-```
+``` php
 $google_places = new GooglePlaces($apiKey, $format);
 ```
 or
-```
+``` php
 $google_places->setFormat($format);
 ```
 
 You can also set up the language if you want. 
-```
+``` php
 $google_places->setLanguage($language_code);
 ```
 In this way it won't be necessary to set up the language within every request.
 
 You can also prepare the input parameters:
-```
+``` php
 $params = [
 	'input' => 'Vict',
 	'types' => '(cities)',
@@ -53,17 +67,17 @@ $params = [
 ];
 ```
 Once all parameters are set, the final step is to send the request to the Google Places Api:
-```
-Â$results = $google_places->getAutocomplete($params);
+``` php
+$results = $google_places->getAutocomplete($params);
 ```
 
 The result is an array. The GooglePlaces class decodes the response received from Google, so it is not necessary for you to do that.
 
 ## Contributing
 How can you contribute:
+
 1. Fork it.
 2. Create your feature branch (git checkout -b my-new-feature).
 3. Commit your changes (git commit -am 'Added some feature').
 4. Push to the branch (git push origin my-new-feature).
 5. Create a new Pull Request.
-
