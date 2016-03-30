@@ -9,6 +9,14 @@
             "email": "p.d.tashev@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+            "name": "peoplegogo/google-places",
+            "version": "1.0"
+        }
+    ],
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
