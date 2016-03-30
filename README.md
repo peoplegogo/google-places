@@ -1,5 +1,6 @@
 # Google Places API - A PHP wrapper
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/peoplegogo/google-places/blob/master/LICENSE)
+[![Build Status](http://img.shields.io/travis/jeroendesloovere/geolocation-php-api.svg)](https://travis-ci.org/peoplegogo/google-places/)
 
 ![Logo of Google Places API Web Service](https://raw.githubusercontent.com/peoplegogo/google-places/master/google-places.png)
 
