@@ -3,6 +3,7 @@
     "description": "A PHP wrapper for the Google Places API.",
     "license": "MIT",
     "keywords": ["google places"],
+    "version": "1.0",
     "authors": [
         {
             "name": "Pavel Tashev",
