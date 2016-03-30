@@ -13,7 +13,7 @@ The recommended installation method is through [Composer](https://getcomposer.or
 ``` json
 {
     "require": {
-        "peoplegogo/google-places": "*"
+        "peoplegogo/google-places": "~1.0"
     }
 }
 ```
