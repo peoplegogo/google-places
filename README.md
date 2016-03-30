@@ -75,6 +75,7 @@ $results = $google_places->getAutocomplete($params);
 
 The result is an array. The GooglePlaces class decodes the response received from Google, so it is not necessary for you to do that.
 
+For more information for the methods and the features of the library you can check _"src"_ or _"tests"_ folders.
 ## Contributing
 How can you contribute:
 
