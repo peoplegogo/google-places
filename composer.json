@@ -1,0 +1,21 @@
+{
+    "name": "peoplegogo/GooglePlaces",
+    "description": "A PHP wrapper for the Google Places API.",
+    "license": "MIT",
+    "keywords": ["google places"],
+    "authors": [
+        {
+            "name": "Pavel Tashev",
+            "email": "p.d.tashev@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peoplegogo\\GooglePlaces\\": "src"
+        }
+    }
+}
