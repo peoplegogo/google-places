@@ -360,7 +360,7 @@ class GooglePlaces
         if ($this->isFormatJson()) {
             return json_decode($response);
         } elseif ($this->isFormatXml()) {
-            return (array) new SimpleXMLElement($response);
+            return (array) new \SimpleXMLElement($response);
         }
 
         return $response;
