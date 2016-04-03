@@ -358,9 +358,9 @@ class GooglePlaces
     private function decodeResponse($response)
     {
         if ($this->isFormatJson()) {
-            return json_decode($response);
+            return json_decode($response, true);
         } elseif ($this->isFormatXml()) {
-            return (array) new \SimpleXMLElement($response);
+            return json_decode(json_encode(new \SimpleXMLElement($response)), true);
         }
 
         return $response;
